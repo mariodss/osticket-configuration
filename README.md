@@ -29,16 +29,11 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 
 <p>
-<img width="656" height="262" alt="image" src="https://github.com/user-attachments/assets/a99de01b-834f-4bec-a278-65dbc086bfb1" />
+<b>1) </b>Log in to your virtual machine and access osTicket via your web browser using the following links:
 </p>
 <p>
 Admin/Analyst Login Page:
 http://localhost/osTicket/scp/login.php 
-</p>
-<br />
-
-<p>
-<img width="647" height="283" alt="image" src="https://github.com/user-attachments/assets/6e6b6641-4a7d-4a52-a5ea-2ff2b36bd765" />
 </p>
 <p>
 End Users osTicket URL:
@@ -51,7 +46,7 @@ http://localhost/osTicket
 <img width="647" height="254" alt="image" src="https://github.com/user-attachments/assets/6b5d0cdb-d4e7-456d-822c-6d51fadbc051" />
 
 </p>
-<p>Configure Roles (for grouping permissions)</p>
+<p><b>2) </b>Configure Roles (for grouping permissions)</p>
 <p>Admin Panel -> Agents -> Roles</p>
 <p>-Supreme Admin</p>
 <br />
@@ -60,7 +55,7 @@ http://localhost/osTicket
 <p>
 <img width="650" height="536" alt="image" src="https://github.com/user-attachments/assets/f97779e6-1dc5-4de2-83d5-bf9c10cd5c8d" />
 </p>
-<p>Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)</p>
+<p><b>3) </b>Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)</p>
 <p>Admin Panel -> Agents -> Departments</p>
 <p>-SysAdmins</p>
 <br />
@@ -68,7 +63,7 @@ http://localhost/osTicket
 <p>
 <img width="652" height="396" alt="image" src="https://github.com/user-attachments/assets/5baeb0b1-d0fc-462a-a17e-01e66073f119" />
 </p>
-<p>Configure Teams</p>
+<p><b>4) </b>Configure Teams</p>
 <p>Admin Panel -> Agents -> Teams (Pull Agents from different Departments)</p>
 <p>-Online Banking</p>
 <br />
@@ -76,7 +71,7 @@ http://localhost/osTicket
 <p>
 <img width="644" height="408" alt="image" src="https://github.com/user-attachments/assets/6c3c6e00-1476-4f1e-a97d-607b325cc625" />
 </p>
-<p>Allow anyone to create tickets</p>
+<p><b>5) </b>Allow anyone to create tickets</p>
 <p>Admin Panel -> Settings -> User Settings (UNCHECK: unregistered users can create tickets)</p>
 <p>-Registration Required: Require registration and login to create tickets </p>
 <br />
@@ -87,7 +82,7 @@ http://localhost/osTicket
 <img width="638" height="241" alt="image" src="https://github.com/user-attachments/assets/4d0ce314-d9c7-4ab8-8d9b-294b00b88359" />
 
 </p>
-<p>Configure Agents (workers)</p>
+<p><b>6) </b>Configure Agents (workers)</p>
 <p>Admin Panel -> Agents -> Add New</p>
 <p>-Jane (Dept: SysAdmins) </p>
 <p>-John (Dept: Support) </p>
@@ -97,7 +92,7 @@ http://localhost/osTicket
 <p>
 <img width="642" height="458" alt="image" src="https://github.com/user-attachments/assets/37ce5e97-fcce-4332-9975-d9aa963875d5" />
 </p>
-<p>Configure Users (customers)</p>
+<p><b>7) </b>Configure Users (customers)</p>
 <p>Agent Panel -> Users -> Add New</p>
 <p>-Karen </p>
 <p>-Ken </p>
@@ -108,7 +103,7 @@ http://localhost/osTicket
 <img width="641" height="388" alt="image" src="https://github.com/user-attachments/assets/9469c1b5-1fa8-4efd-b62e-fd94affdca86" />
 <img width="647" height="384" alt="image" src="https://github.com/user-attachments/assets/907fa5f3-eda9-4180-82c4-d1d158d768d6" />
 </p>
-<p>Configure SLA</p>
+<p><b>8) </b>Configure SLA</p>
 <p>Admin Panel -> Manage -> SLA</p>
 <p>-Sev-A (Grace Period: 1 hour, Schedule: 24/7)</p>
 <p>-Sev-B (Grace Period: 4 hours, Schedule: 24/7)</p>
@@ -122,7 +117,7 @@ http://localhost/osTicket
 <img width="643" height="369" alt="image" src="https://github.com/user-attachments/assets/c397adaa-0617-483b-8ab9-234e44f3cd6a" />
 <img width="640" height="374" alt="image" src="https://github.com/user-attachments/assets/b119607e-890e-48d4-9474-6af7a1de61ac" />
 </p>
-<p>Configure Help Topics (For when users create a ticket)</p>
+<p><b>9) </b>Configure Help Topics (For when users create a ticket)</p>
 <p>Admin Panel -> Manage -> Help Topics</p>
 <p>-Business Critical Outage</p>
 <p>-Personal Computer Issues</p>
