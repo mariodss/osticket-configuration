@@ -82,10 +82,9 @@ http://localhost/osTicket
 <img width="638" height="241" alt="image" src="https://github.com/user-attachments/assets/4d0ce314-d9c7-4ab8-8d9b-294b00b88359" />
 
 </p>
-<p><b>6) </b>Configure Agents (workers)</p>
+<p><b>6) </b>Configure Agents (workers).</p>
 <p>Admin Panel -> Agents -> Add New</p>
 <p>-Jane (Dept: SysAdmins) </p>
-<p>-John (Dept: Support) </p>
 <br />
 
 
